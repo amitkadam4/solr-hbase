@@ -1,4 +1,4 @@
 {
-  "zkSolrString":"hostname:2181,hostname:2181/solr-dod",
+  "zkSolrString":"hostname-zookeeper:2181,hostname-zookeeper:2181/solr-dod",
   "zkString":"hostname,hostname:2181"
 }
