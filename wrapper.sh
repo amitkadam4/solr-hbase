@@ -1,6 +1,6 @@
 #!/bin/bash
 
-spark-submit --name "job-name" --class com.poc.solr.hbase.Solrspark --master yarn --deploy-mode cluster jar_name.jar
+spark-submit --name "job-name" --class com.poc.solr.hbase.Solrspark --master yarn --deploy-mode cluster --conf spark.yarn.submit.waitAppCompletion=false jar_name.jar
 	"{	\"tables\":[
 		{
 			\"tableProp\":{
